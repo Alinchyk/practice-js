@@ -11,3 +11,11 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+
+const str = "country";
+
+console.log(str instanceof String);
+console.log(typeof str);
+
+const str1 = str.toLocaleUpperCase();
+console.log(str1);
