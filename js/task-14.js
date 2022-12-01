@@ -5,3 +5,8 @@
  *
  * 3. Выведите значение второй переменной в консоль
  */
+
+const greeting = "Good Morning";
+const newGreeting = greeting.replace(/morning/i, "Evening");
+
+console.log(newGreeting);
