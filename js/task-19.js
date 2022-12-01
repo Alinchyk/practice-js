@@ -3,3 +3,6 @@
  *
  * 2. Выведите значение в консоль
  */
+
+const time = new Date().getTime();
+console.log(time);
