@@ -11,13 +11,7 @@
  * 5. Если массив не отсортирован - вернуть "Массив не отсортирован"
  */
 
-const arraySortInfo = (inputArray) => {
-  if (inputArray.some((el) => el !== "number")) {
-    return "Некоторые элементы не являются числами";
-  } else if (inputArray.sort((a, b) => b - a)) {
-    return "Массив отсортирован по возрастанию";
-  }
-};
+const arraySortInfo = (inputArray) => {};
 
 const a = [5, "abc", 10, 1];
 const b = [4, 10, 14, 25, 25, 50];
