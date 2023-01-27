@@ -11,12 +11,18 @@
  * ВАЖНО: Исходите из того, что массивы содержат элементы примитивных типов
  */
 
-const areArraysEqual = (firstArray, secondArray) => {};
+const areArraysEqual = (firstArray, secondArray) => {
+  if (firstArray[0] === secondArray[0]) {
+    return true;
+  } else {
+    return false;
+  }
+};
 
 const a = [1, 2, 3];
 const b = [1, 2, 3];
 
-console.log(a === b); // false (Почему?)
+// console.log(a === b); // false (Почему?)
 
 const c = [2, 1, 3];
 const d = [1, 2, 3, 4];
