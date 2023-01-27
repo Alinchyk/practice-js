@@ -9,6 +9,10 @@
 
 const transports = ["Bus", "Car", "Bicycle", "Airplane"];
 
+const isElementInArray = function (inputArray, searchElement) {
+  return inputArray.includes(searchElement) ? true : false;
+};
+
 console.log(isElementInArray(transports, "Bus")); // true
 console.log(isElementInArray(transports, "Phone")); // false
 console.log(isElementInArray(transports, "Airplane")); // true
