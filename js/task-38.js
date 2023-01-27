@@ -18,8 +18,9 @@ const posts = [
   {postId: 6134, commentsQuantity: 2},
 ];
 
-const findPostById = posts.map((post) => post.postId);
-console.log(findPostById);
+const findPostById = function (id, arr) {
+  return arr.find((post) => post.postId === id);
+};
 
-// console.log(findPostById(6134, posts)); // { postId: 6134, commentsQuantity: 2 }
-// console.log(findPostById(4511, posts)); // undefined
+console.log(findPostById(6134, posts)); // { postId: 6134, commentsQuantity: 2 }
+console.log(findPostById(4511, posts)); // undefined
