@@ -218,4 +218,15 @@ input), підставляє його поточне значення в `span#n
   <button type="button" data-action="destroy">Очистити</button>
 </div>
 
-<div id="boxes"></div> -->
+<div id="boxes"></div>
+
+Завдання 8
+
+Очистіть елемент
+Створіть функцію clear(elem) яка видаляє все з елементу.
+
+<ol id="elem">
+  <li>Привіт</li>
+  <li>Світ</li>
+</ol>
+ -->
