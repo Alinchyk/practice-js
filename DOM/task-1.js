@@ -1,9 +1,14 @@
-const refs = {
-  list: document.querySelector("#categories"),
-  item: document.querySelector(".item"),
-  title: document.querySelector(".item h2"),
-};
+const item = document.querySelectorAll(".item");
 
-// console.log(refs.list);
-// console.log(refs.item);
-// console.log(refs.title);
+// підрахунок і виведення категорій
+const categories = item.length;
+console.log(`У списку ${categories} категорії.`);
+
+// підрахунок і виведення інформації категорій
+item.forEach(el => {
+  const title = el.querySelector("h2").textContent;
+  const li = el.querySelectorAll("li");
+
+  console.log(`Категорія: ${title}`);
+  console.log(`Кількість елементів: ${li.length}`);
+});
