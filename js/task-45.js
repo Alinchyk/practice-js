@@ -6,7 +6,6 @@
  * равными категориям, и значениями,
  * равными сумме всех количеств в каждой категории
  */
-
 const inputProducts = [
   {
     title: "Phone case",
@@ -33,16 +32,6 @@ const inputProducts = [
     category: "Watches",
   },
 ];
-
-const quantitiesByCategories = function (products) {
-  return products.reduce((qtsCategories, product) => {
-    const {category, quantity} = product;
-
-    qtsCategories[category] = (qtsCategories[category] || 0) + quantity;
-
-    return qtsCategories;
-  }, {});
-};
 
 console.log(quantitiesByCategories(inputProducts));
 /* {

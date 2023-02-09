@@ -11,7 +11,11 @@
  * 5. Если массив не отсортирован - вернуть "Массив не отсортирован"
  */
 
-const arraySortInfo = (inputArray) => {};
+const arraySortInfo = (inputArray) => {
+    inputArray.every((el, index) => if (el === Number) {
+    
+  });
+};
 
 const a = [5, "abc", 10, 1];
 const b = [4, 10, 14, 25, 25, 50];

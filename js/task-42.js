@@ -9,6 +9,8 @@
  * а затем применить метод "includes" с аргументом, который также будет преобразован в строку
  */
 
+const isElementInArray = function (searchElement, inputArray) {};
+
 const tags = [
   ["javascript", "es6"],
   ["css", "flexbox"],
